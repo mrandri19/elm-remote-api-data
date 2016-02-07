@@ -42,7 +42,7 @@ type Action
 view : Signal.Address Action -> Model -> Html
 view address model =
     div
-        [ id "content", class "container" ]
+        [ id "content", class "container z-depth-2" ]
         [ div
             [ class "row" ]
             [ div
